@@ -1,0 +1,9 @@
+Example of the updated "learned" quantization
+This package is self-contained
+
+1. See and/or run Quantization_example.ipynb for the process. Quality check, etc. are included.
+
+2. In Q_funcs.py, the functions are defined.
+  2.1 Function i_basis_xy is an update of the original function in arXiv:1807.10029 (2018). The original function is i_basis.
+  2.2 Function New_basis is an update of the original method in arXiv:1807.10029 (2018). It may be noted that the original method can be run by setting train_flag = 1 in function q_run.
+
